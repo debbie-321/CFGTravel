@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background: #ffa69e;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+nav {
+    background: #ffa69e;
+    text-decoration: none;
+    justify-content: center !important;
+    margin: 15px 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 15px;
+}
+.container{ 
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+
+h1{
+    color:  black;
+    text-align: center;
+    margin: 100px auto 50px;
+    font-family: sans-serif;
+    transform: uppercase;
+    
+}
+
+
+
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.col
+{
+    flex-basis: 30%;
+    overflow: hidden;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 1s;
+    transform-style: preserve-3d;
+}
+
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.card-front{
+   
+    background-position: center;
+    background-size: cover;
+}
+
+.front-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(iiimg.jpg);
+}
+
+.front-2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(imgdeb.jpg);
+
+}
+
+    .front-3{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url(iimg.jpg);
+    }
+
+
+
+span{
+    display: inline-block;
+    width: 100px;
+    padding: 14px 0px;
+    margin-top: 290px;
+    border-radius: 4px;
+    background: whitesmoke;
+    color: #333;
+    transition-duration: 1s;
+}
+
+.card-back{
+    background: #ffa69e;
+    transform: rotateX(180deg);
+
+
+}
+
+.card:hover .inner-box{
+    transform: rotateX(-180deg);
+}
+
+.card:hover span{
+    transform: translateY(140px);
+}
+
+p{
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-top: 140px;
+}
+
+.blurb{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 100px auto 50px;
+    font-family: sans-serif;
+}
+
+
+h5{ 
+    color: #333;
+    text-align: center;
+    margin: 50px auto 50px;
+    font-family: sans-serif;
+    font-weight: normal;
+  
+}
+
+footer {
+    background: #5e6472;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+}
+

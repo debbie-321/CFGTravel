@@ -1,0 +1,83 @@
+
+html {
+    font-family: 'Roboto Mono', monospace !important;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+    
+}
+
+body {
+    font-family: 'Roboto Mono', monospace !important;
+    background: #faf3dd !important;
+}
+
+.banner{
+    margin: 0 auto;
+}
+
+.city {
+    font-size: 75px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.welcome {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+
+nav {
+    background: #ffa69e;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+
+.food,  .places,  .thingstodo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+img {
+    height: 400px;
+}
+
+footer {
+    background: #5e6472;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+}

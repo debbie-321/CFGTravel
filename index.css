@@ -1,0 +1,72 @@
+
+html {
+    font-family: 'Roboto Mono', monospace !important;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+    
+}
+
+body {
+    font-family: 'Roboto Mono', monospace !important;
+    background: #faf3dd !important;
+}
+
+nav {
+    background: #ffa69e;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.CFG {
+    font-size: 75px ;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.carousel {
+    width: 650px;
+    margin: auto;
+    padding: 20px 20px;
+    
+}
+
+
+.welcometxt {
+    
+    background: #aed9e0;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px ; 
+    width: 750px;
+    
+}
+  
+
+footer {
+    background: #5e6472;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+}
+
+

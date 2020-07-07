@@ -1,0 +1,126 @@
+
+html {
+    font-family: 'Roboto Mono', monospace !important;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+h1{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+}
+
+
+body {
+    font-family: 'Roboto Mono', monospace !important;
+    background: #faf3dd !important;
+}
+
+
+nav {
+    background: #ffa69e;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+form {
+    background: #faf3dd;
+    padding-bottom: 10px;
+}
+
+
+.name{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+th{
+    text-align: left;
+    margin: 0 auto;
+}
+
+input{
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+}
+
+svg{
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+    padding: 5px;
+}
+tr {
+    text-align: center;
+}
+
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+  
+table {
+    
+    border-spacing: 2rem;
+    margin: 0 auto;
+}
+  
+table th, table td {
+    padding: 10px 20px;
+    
+}
+  
+tbody tr:nth-child(odd) {
+    background: #9d8189;
+    color: black;
+}
+  
+td {
+    padding-bottom: 30px;
+}
+
+footer {
+    background: #5e6472;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+}
+
+h3{
+    text-align: left;
+    font-size: 20px !important;
+
+}
+
+.submit{
+    background: #faf3dd ;
+    
+}
