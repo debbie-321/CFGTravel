@@ -4,6 +4,22 @@
 
 }
 
+html {
+    font-family: 'Roboto Mono', monospace !important;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+    
+}
+
+body {
+    font-family: 'Roboto Mono', monospace !important;
+    background: #faf3dd !important;
+    color: black;
+}
+.lead{
+    color: black;
+}
 nav {
     background: #ffa69e;
     position: relative;
